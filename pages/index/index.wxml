@@ -1,7 +1,12 @@
 <!--index.wxml-->
-<view class="my_style">
-Hello World!
-
-这是第一个程序，
-
+<!--1.数据绑定-->
+<view class="my_style_one">
+{{name}}:{{age}}q
 </view>
+<!--2.列表展示-->
+
+<view class="my_style_two" wx:for="{{students}}">{{item.name}}:{{item.age}}</view>
+<!--3.事件监听-->
+<view>数字：{{count}}</view>
+<button bindtap="btnclick">加 1</button>
+

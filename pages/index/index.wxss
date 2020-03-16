@@ -1,5 +1,10 @@
 /**index.wxss**/
-.my_style{
+.my_style_one{
   color:blue;
-  margin: 150rpx
+  margin-left:80rpx;
+  margin-bottom: 30rpx
+}
+.my_style_two{
+  color:rgb(146, 11, 29);
+  margin-left:80rpx;
 }
