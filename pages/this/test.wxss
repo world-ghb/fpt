@@ -1,0 +1,7 @@
+/* pages/this/test.wxss */
+.box{
+  color: red
+}
+.active{
+  color:blue
+}

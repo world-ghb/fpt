@@ -1,0 +1,13 @@
+<!--pages/this/test.wxml-->
+<text>pages/this/test.wxml</text>
+<view>姓名：
+{{firstname}} {{lastname}}
+</view>
+<view>姓名：
+{{firstname + ' ' + lastname}}
+</view>
+<view>年龄:{{age}}</view>
+<view class="box">{{age >=18 ? "成年":"未成年"}}</view>
+
+<button size="mini" bindtap="handleSwitchColor">改变下面文字字体颜色</button>
+<view class="box {{isActive ? 'active':'' }}">该处文字变颜色</view>
